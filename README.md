@@ -8,6 +8,7 @@ Docker and Docker Compose, Git, Python installed on your machine.
 
 SETUP 
 1. Clone the repository using git clone <repo name>
+2. Navigate to project directory and run the requiremts.txt file on the terminal, using pip install -r requirements.txt command
 2. Configure Docker by running docker-compose up --build
 3. After Docker is up, you will be able to see the Postgres, Airflow running on the specified URL
 4. Run the ETL dag from Airflow webserver.
